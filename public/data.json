@@ -1,0 +1,33 @@
+{
+    "nodes": [
+        {
+            "name": "Salary"
+        },
+        {
+            "name": "Bills"
+        },
+        {
+            "name": "Electricity Bill"
+        },
+        {
+            "name": "Mobile Bill"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 3000
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "value": 1000
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "value": 2000
+        }
+    ]
+}
